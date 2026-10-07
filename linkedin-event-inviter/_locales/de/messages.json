@@ -1,0 +1,197 @@
+{
+  "appName": {
+    "message": "LinkedIn Event Inviter by SimpleLi",
+    "description": "Der Name der Erweiterung"
+  },
+  "appDescription": {
+    "message": "Vereinfache das Einladen von Personen zu deinen LinkedIn-Events",
+    "description": "Die Beschreibung der Erweiterung"
+  },
+  "appTitle": {
+    "message": "LinkedIn Event Inviter"
+  },
+  "namesLabel": {
+    "message": "Personen zum Einladen:"
+  },
+  "inviteButton": {
+    "message": "Einladen"
+  },
+  "stopButton": {
+    "message": "Stoppen"
+  },
+  "namesPlaceholder": {
+    "message": "Namen eingeben, einer pro Zeile",
+    "description": "Platzhalter für das Namen-Textfeld"
+  },
+  "dataExportHint": {
+    "message": "Tipp: <a href=\"https://www.linkedin.com/mypreferences/d/download-my-data\" target=\"_blank\">Exportiere Verbindungen</a> aus deinen LinkedIn-Daten.",
+    "description": "Hinweis zum Herunterladen der LinkedIn-Verbindungsdaten"
+  },
+  "processingNames": {
+    "message": "Verarbeitung von $COUNT$ Namen...",
+    "placeholders": {
+      "COUNT": {
+        "content": "$1"
+      }
+    }
+  },
+  "invitingProgress": {
+    "message": "$CURRENT$ von $TOTAL$ Personen eingeladen...",
+    "description": "Echtzeit-Fortschritt des Einladungsprozesses",
+    "placeholders": {
+      "CURRENT": {
+        "content": "$1",
+        "example": "5"
+      },
+      "TOTAL": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "processCompleted": {
+    "message": "Vorgang abgeschlossen"
+  },
+  "stoppingProcess": {
+    "message": "Einladungsprozess wird gestoppt..."
+  },
+  "processingStopped": {
+    "message": "Prozess gestoppt. $ADDED$ von $TOTAL$ Personen wurden eingeladen.",
+    "description": "Nachricht, die angezeigt wird, nachdem der Prozess vom Benutzer gestoppt wurde",
+    "placeholders": {
+      "ADDED": {
+        "content": "$1",
+        "example": "5"
+      },
+      "TOTAL": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "noNamesError": {
+    "message": "Bitte gib mindestens einen Namen ein"
+  },
+  "errorCommunicating": {
+    "message": "Fehler bei der Kommunikation mit der LinkedIn-Seite"
+  },
+  "nameAdded": {
+    "message": "$NAME$ hinzugefügt",
+    "description": "Protokollmeldung, wenn ein Name hinzugefügt wurde",
+    "placeholders": {
+      "NAME": {
+        "content": "$1",
+        "example": "Max Mustermann"
+      }
+    }
+  },
+  "nameNotFound": {
+    "message": "$NAME$ nach $ATTEMPTS$ Versuchen nicht gefunden",
+    "description": "Protokollmeldung, wenn ein Name nicht gefunden wurde",
+    "placeholders": {
+      "NAME": {
+        "content": "$1",
+        "example": "Max Mustermann"
+      },
+      "ATTEMPTS": {
+        "content": "$2",
+        "example": "3"
+      }
+    }
+  },
+  "invitationSummary": {
+    "message": "Fertig. $ADDED$ von $TOTAL$ Namen hinzugefügt",
+    "description": "Zusammenfassungsmeldung nach Abschluss des Prozesses",
+    "placeholders": {
+      "ADDED": {
+        "content": "$1",
+        "example": "5"
+      },
+      "TOTAL": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "attemptSearch": {
+    "message": "Versuch $ATTEMPT$: Keine Ergebnisse für \"$NAME$\"",
+    "description": "Protokollmeldung für Suchversuche",
+    "placeholders": {
+      "ATTEMPT": {
+        "content": "$1",
+        "example": "1"
+      },
+      "NAME": {
+        "content": "$2",
+        "example": "Max Mustermann"
+      }
+    }
+  },
+  "elementNotFound": {
+    "message": "Element $SELECTOR$ nicht gefunden",
+    "description": "Fehlermeldung, wenn ein Element nicht gefunden wurde",
+    "placeholders": {
+      "SELECTOR": {
+        "content": "$1",
+        "example": ".button"
+      }
+    }
+  },
+  "openLinkedInEvent": {
+    "message": "Bitte öffne eine LinkedIn-Eventseite",
+    "description": "Fehlermeldung, wenn keine LinkedIn Event-Seite geöffnet ist"
+  },
+  "namesLoaded": {
+    "message": "$COUNT$ Namen geladen",
+    "description": "Statusmeldung für geladene Namen",
+    "placeholders": {
+      "COUNT": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "pleaseEnterNames": {
+    "message": "Bitte Namen eingeben",
+    "description": "Fehlermeldung, wenn keine Namen eingegeben wurden"
+  },
+  "addingNames": {
+    "message": "Füge Namen hinzu...",
+    "description": "Statusmeldung beim Start des Prozesses"
+  },
+  "title": {
+    "message": "LinkedIn Event Inviter"
+  },
+  "language": {
+    "message": "Sprache"
+  },
+  "startInviting": {
+    "message": "Einladen"
+  },
+  "processing": {
+    "message": "Verarbeitung..."
+  },
+  "invitationSent": {
+    "message": "Einladung gesendet an"
+  },
+  "footer": {
+    "message": "Entwickelt von"
+  },
+  "export": {
+    "message": "Daten exportieren"
+  },
+  "status": {
+    "message": "Status"
+  },
+  "namesInfoTooltip": {
+    "message": "Du kannst Namen aus deinen exportierten LinkedIn-Verbindungen kopieren und einfügen oder manuell eingeben."
+  },
+  "people": {
+    "message": "Personen",
+    "description": "Plural form of person, used in the invite button"
+  },
+  "moreInfo": {
+    "message": "Mehr Infos",
+    "description": "Text für Mehr-Informationen-Link in der Fußzeile"
+  }
+}
