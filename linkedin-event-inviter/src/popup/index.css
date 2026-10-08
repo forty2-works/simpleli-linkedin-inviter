@@ -270,6 +270,5 @@
 
 /* Ensure popup has proper dimensions */
 html, body {
-  min-height: 500px;
   max-height: 600px;
 } 

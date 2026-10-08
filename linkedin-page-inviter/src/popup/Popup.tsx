@@ -16,7 +16,7 @@ const Popup: React.FC = () => {
       </main>
       
       <Footer 
-        version="1.0.4"
+        version="1.0.5"
         repoUrl="https://github.com/forty2-works/simpleli-linkedin-inviter"
       />
     </div>

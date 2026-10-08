@@ -1,6 +1,6 @@
 {
   "name": "linkedin-page-inviter",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Chrome extension to invite LinkedIn connections to events",
   "scripts": {
     "start": "webpack --watch --config webpack.dev.js",
